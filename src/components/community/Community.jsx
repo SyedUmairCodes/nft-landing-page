@@ -3,7 +3,7 @@ import communityImage from "../../assets/images/community-image.png"
 const Community = () => {
   return (
     <section className="community section" id="community">
-        <div className="community__container container grid">
+        <div className="community__container grid container">
             <div className="community__images"> 
                 <div className="community__orb"></div>
                 <div className="community__image">
@@ -35,18 +35,6 @@ const Community = () => {
                             <div>
                                 <h3 className="community__card-title">Twitter</h3>
                                 <p className="community__card-description">Follow NFT.io on Twitter</p>
-                            </div>
-                        </div>
-                        <button className="button community__card-button">Follow</button>
-                    </div>
-                </div>
-                <div className="community__card">
-                    <div className="community__card-box">
-                        <div className="community__card-info">
-                            <i className="ri-tiktok-line"></i>
-                            <div>
-                                <h3 className="community__card-title">TikTok</h3>
-                                <p className="community__card-description">Follow NFT.io on TikTok</p>
                             </div>
                         </div>
                         <button className="button community__card-button">Follow</button>

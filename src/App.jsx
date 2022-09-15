@@ -4,6 +4,7 @@ import Collection from './components/collection/Collection'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Community from './components/community/Community'
+import Newsletter from './components/newsletter/Newsletter'
 function App() {
   
   return (
@@ -13,6 +14,7 @@ function App() {
       <Collection/>
       <Faq/>
       <Community/>
+      <Newsletter/>
     </div>
   )
 }

@@ -1,0 +1,26 @@
+.newsletter{
+    padding: 2.5rem;
+}
+
+.newsletter__container{
+    background-color: #212121;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.newsletter__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+}
+
+
+.newsletter__input {
+    width: 90%;
+    background-color: var(--body-color);
+    color:var(--first-color);
+    margin: 0.5rem;
+  }
+  
+  .newsletter__input::placeholder {
+    color: var(--first-color);
+  }
