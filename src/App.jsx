@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Community from './components/community/Community'
 import Newsletter from './components/newsletter/Newsletter'
+import Footer from './components/footer/Footer'
 function App() {
   
   return (
@@ -15,6 +16,7 @@ function App() {
       <Faq/>
       <Community/>
       <Newsletter/>
+      <Footer/>
     </div>
   )
 }
