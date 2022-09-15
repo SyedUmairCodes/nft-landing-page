@@ -10,12 +10,12 @@ const Community = () => {
                     <img src={communityImage} alt="contact us" />
                 </div>
             </div>
-            <div className="community__content">
-                <div className="community__data">
+            <div className="community__data">
                     <span className="section__subtitle">Join now</span>
                     <h2 className="section__title">Be a part of our Community</h2>
                     <p className="community__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repellendus voluptate in non aperiam fuga, nobis nam harum nemo facilis a asperiores ullam voluptatibus molestias temporibus! Dolore laboriosam debitis numquam?</p>
                 </div>
+            <div className="community__content">
                 <div className="community__card">
                     <div className="community__card-box">
                         <div className="community__card-info">
