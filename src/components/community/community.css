@@ -1,5 +1,6 @@
 .community__container{
     row-gap: 2rem;
+    width: fit-content;
 }
 
 .community__images{
@@ -32,9 +33,7 @@
 }
 
 .community__card{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1.25rem 0.75rem;
+width:100%;
 }
 
 .community__card-box{
@@ -57,4 +56,12 @@
     border-radius: 6px;
     font-size: 1.25rem;
     color: #fff;
+}
+.community__content{
+    display:grid;
+    /* width:100%; */
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,50%);
+    gap: 1.25rem 0.75rem;
+
 }
