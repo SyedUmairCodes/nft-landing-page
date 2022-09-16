@@ -15,10 +15,6 @@ const Header = () => {
           <li className="nav__item"><a href="#community" className="nav__link"><i className="ri-account-box-line"></i><span>Community</span></a></li>
         </ul>
       </div>
-
-      <a href="/" className="button nav__button">
-        Subscribe
-      </a>
     </nav>
   </header>
   )

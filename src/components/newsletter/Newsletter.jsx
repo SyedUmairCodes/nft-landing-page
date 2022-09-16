@@ -2,7 +2,7 @@ import "./newsletter.css"
 const Newsletter = () => {
   return (
     <section className="newsletter section">
-        <div className="newsletter__container container">
+        <div className="newsletter__container">
             <h1 className="newsletter__title">Subscribe to our newsletter</h1>
             <form action="" className="home__search">
               <input
